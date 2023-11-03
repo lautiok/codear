@@ -1,8 +1,8 @@
-const check = document.querySelector('.check');
-check.addEventListener('click', idioma);
+const checks = document.querySelector('.check');
+checks.addEventListener('click', idioma);
 
 function idioma() {
-  let id = check.checked;
+  let id = checks.checked;
   if (id) {
     location.href = "../es/index.html";
   } else {
