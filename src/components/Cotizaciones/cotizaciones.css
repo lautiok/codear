@@ -1,0 +1,157 @@
+.cotizaciones-section {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.cotizaciones-section article {
+  flex: 1;
+  padding: 1rem;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.cotizaciones-section article:hover {
+  transform: scale(1.01);
+}
+
+.contact {
+  background-color: #ffffff;
+  color: black;
+}
+
+.contact h2, .azul h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.contact p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.contact .tel {
+  margin-bottom: 11rem;
+
+}
+
+.contact h2 span {
+  color: #ff00ff; /* Punto de color magenta */
+}
+
+.azul {
+  background-color: #284C55;
+  color: white;
+}
+
+.azul form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+}
+
+.azul input,
+.azul textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.azul input::placeholder,
+.azul textarea::placeholder {
+  color: #cfcfcf; /* Color del texto de marcador de posición */
+}
+
+.btn-cotizaciones {
+  width: 100%;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: #ffffff;
+  color: black;
+}
+
+@media screen and (max-width: 1280px) {
+  .cotizaciones-section {
+      padding: 0 9rem 0rem 9rem;
+ 
+  }
+}
+
+@media screen and (max-width: 884px) {
+  .cotizaciones-section  {
+      padding: 0 3rem 3rem;
+      gap: 1rem;
+  }
+
+  .cotizaciones-section article {
+      margin-left: 0;
+      margin-right: 0;
+  }
+
+  .cotizaciones-section .azul h2, .cotizaciones-section .contact h2 {
+      font-size: 1.5rem;
+      margin-bottom: 1px;
+  }
+
+  .cotizaciones-section .azul p, .cotizaciones-section .contact p {
+      margin-right: 0;
+      margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .cotizaciones-section  {
+      padding: 0 1.4rem 1.4rem;
+      gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .cotizaciones-section  {
+      padding: 0 2rem 2rem;
+      gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .cotizaciones-section  {
+      padding: 0 1.7rem 1.7rem;
+      gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .cotizaciones-section  {
+      flex-direction: column;
+  }
+
+  .cotizaciones-section article {
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom:0;
+  }
+
+  .cotizaciones-section .azul h2, .cotizaciones-section .contact h2 {
+      font-size: 1.5rem;
+      margin-bottom: 1px;
+  }
+
+  .cotizaciones-section .azul p, .cotizaciones-section .contact p {
+      margin-right: 0;
+      margin-top: 0;
+      margin-bottom: 2rem;
+  }
+}

@@ -1,0 +1,168 @@
+.herositioweb-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1118px;
+    height: auto;
+    padding: 1rem 0;
+    margin: 1rem auto;
+    background-color: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.herositioweb-section:hover {
+    transform: scale(1.01);
+}
+
+.herositioweb-info {
+    flex: 1; 
+    margin-left: 1rem;
+    padding: 1rem; 
+}
+
+.herositioweb-info h2 {
+    font-size: 2.5rem; 
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 0;
+    line-height: 1.2; 
+}
+
+.herositioweb-info p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 2rem; 
+    line-height: 1.5; 
+}
+
+.herositioweb-info h2 span {
+    color: #FF00E5;
+}
+
+.herositioweb-image {
+    flex: 1; /* Permite que la imagen crezca con el espacio disponible */
+    margin-right: 1rem;
+    display: flex; /* Centra la imagen */
+    justify-content: center;
+    align-items: center;
+    padding: 1rem; /* Agregamos padding para mejorar el espacio interior */
+}
+
+.herositioweb-image img {
+    width: 100%;
+    max-width: 300px; /* Ajuste para imágenes grandes */
+    height: auto;
+    border-radius: 10px; /* Redondea los bordes de la imagen */
+}
+
+@media screen and (max-width: 1440px) {
+    .herositioweb-section {
+        max-width: 990px;
+    }
+}
+
+/* Media Queries para Responder a Diferentes Tamaños de Pantalla */
+@media screen and (max-width: 1024px) {
+    .herositioweb-section {
+        flex-direction: column; /* Cambia la disposición a columna */
+        padding: 1rem;
+    }
+
+    .herositioweb-info {
+        text-align: center; /* Centra el texto en pantallas pequeñas */
+        margin: 0;
+        padding: 1rem;
+    }
+
+    .herositioweb-info p {
+        margin-right: 0; /* Elimina margen para texto en dispositivos pequeños */
+    }
+
+    .herositioweb-image {
+        margin-top: 1rem; /* Agrega espacio entre imagen y texto */
+        margin-right: 0;
+    }
+
+    .herositioweb-image img {
+        max-width: 100%; /* Asegura que la imagen no desborde en pantallas pequeñas */
+    }
+}
+
+@media screen and (max-width: 884px) {
+    .herositioweb-section {
+        max-width: 768px;
+    }
+}
+
+@media screen and (max-width: 820px) {
+      .herositioweb-section {
+        max-width: 720px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .herositioweb-section {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .herositioweb-section {
+        max-width: 680px;
+    }
+
+    .herositioweb-info h2 {
+        font-size: 2rem; /* Reduce el tamaño de fuente en tablets */
+    }
+
+    .herositioweb-info p {
+        font-size: 0.9rem; /* Ajuste del tamaño de texto en tablets */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .herositioweb-info h2 {
+        font-size: 1.5rem; /* Ajuste del tamaño de texto en móviles */
+    }
+
+    .herositioweb-info p {
+        font-size: 0.85rem; /* Ajuste del tamaño de texto en móviles */
+        margin-bottom: 1rem; /* Reduce el espacio inferior */
+    }
+
+    .herositioweb-info {
+        padding: 0.5rem;
+    }
+
+    .herositioweb-image img {
+        max-width: 90%; /* Ajuste del tamaño de imagen en móviles */
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .herositioweb-section {
+        max-width: 330px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .herositioweb-section {
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .herositioweb-section {
+        max-width: 250px;
+    }
+
+    .herositioweb-info h2 {
+        font-size: 1.4rem;
+    }
+}

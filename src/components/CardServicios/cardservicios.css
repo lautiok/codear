@@ -1,0 +1,68 @@
+.cardServicios-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 65px; 
+    padding: 20px;
+    justify-items: center; 
+    align-items: start;
+    max-width: 1200px;
+    margin: 0 auto 7rem;
+    
+}
+
+.cardServicios-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 340px;
+    height: 100%; /* Asegura que las tarjetas tengan la misma altura */
+    padding: 1.5rem;
+    margin: 1rem;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para una apariencia elevada */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.cardServicios-info:hover {
+    transform: translateY(-5px); /* Movimiento hacia arriba al pasar el ratón */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Incrementa la sombra al hacer hover */
+}
+
+.cardServicios-info h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333333; /* Un gris más oscuro para mejorar la legibilidad */
+    line-height: 1.2;
+    text-align: center; /* Centrar el texto del título */
+    margin-bottom: 0;
+}
+
+.cardServicios-info p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #666666; /* Un gris medio para el texto del párrafo */
+    margin: 0;
+    line-height: 1.5;
+    text-align: center; /* Centrar el texto del párrafo */
+}
+
+
+@media screen and (max-width: 1280px) {
+    .cardServicios-section {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 90%;
+    } 
+
+}   
+
+@media screen and (max-width: 428px) {
+    .cardServicios-section {
+        grid-template-columns: repeat(1, 1fr);
+        max-width: 90%;
+    }
+}

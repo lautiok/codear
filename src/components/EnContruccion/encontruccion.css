@@ -1,0 +1,61 @@
+.en-contruccion-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+    margin-left: 25rem;
+    margin-right: 25rem;
+    padding: 2rem;
+    border-radius: 40px;
+    color: #000;
+}
+
+.en-contruccion-section img {
+    width: 30%;
+    height: auto;
+}
+
+.en-contruccion-section h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.en-contruccion-section p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+@media screen and (max-width: 1280px) {
+    .en-contruccion-section {
+        margin: 0;
+        margin-bottom: 10rem;
+        padding: 1rem;
+    }
+
+      .en-contruccion-section img {
+        width: 40%;
+      }
+
+}   
+
+@media screen and (max-width: 428px) {
+    .en-contruccion-section {
+        margin: 0;
+        margin-bottom: 10rem;
+        padding: 1rem;
+    }
+    .en-contruccion-section img {
+        width: 40%;
+    }
+    .en-contruccion-section h2 {
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+
+      .en-contruccion-section p {
+        font-size: 0.8rem;
+      }
+  }
