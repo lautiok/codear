@@ -11,6 +11,7 @@ export const Proyectos = () => {
   return (
     <>
       <Helmet>
+        <head>
         <title>Proyectos | Codear</title>
         <meta name="Proyectos" content="Proyectos" />
         <meta
@@ -24,6 +25,7 @@ export const Proyectos = () => {
           property="og:description"
           content="contamos con unos proyectos de alta calidad."
         />
+        </head>
       </Helmet>
       <main>
         <HeroProyectos />

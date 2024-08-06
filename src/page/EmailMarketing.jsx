@@ -11,6 +11,7 @@ export const EmailMarketing = () => {
   return (
     <>
       <Helmet>
+        <head>
         <title>Email Marketing | Codear</title>
         <meta name="Email Marketing" content="Email Marketing" />
         <meta
@@ -24,6 +25,7 @@ export const EmailMarketing = () => {
           property="og:description"
           content="Ofrecemos el servicio de Email Marketing para tu negocio."
         />
+        </head>
       </Helmet>
       <main>
         <HeroEmailMarketing />

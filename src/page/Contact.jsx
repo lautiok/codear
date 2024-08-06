@@ -8,6 +8,7 @@ export const Contact = () => {
   return (
     <>
       <Helmet>
+        <head>
         <title>Contacto | Codear</title>
         <meta name="Contacto" content="Contacto" />
         <meta
@@ -21,6 +22,7 @@ export const Contact = () => {
           property="og:description"
           content="envianos un mensaje para que te ayudemos a mejorar tu negocio."
         />
+        </head>
       </Helmet>
       <main>
         <Contacto />

@@ -11,6 +11,7 @@ export const Servicios = () => {
   return (
     <>
       <Helmet>
+        <head>
         <title>Nuestros servicios | Codear</title>
         <meta
           name="description"
@@ -26,6 +27,7 @@ export const Servicios = () => {
           property="og:description"
           content="Ofrecemos un amplio gama de servicios para ayudarte a crear tus proyectos digitales."
         />
+        </head>
       </Helmet>
       <main>
         <HeroServicios />

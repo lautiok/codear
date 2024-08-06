@@ -12,6 +12,7 @@ export const Ecommerce = () => {
   return (
     <>
     <Helmet>
+      <head>
       <title>Tu negocio en linea | Codear</title>
       <meta name="Tu negocio en linea" content="Tu negocio en linea" />
       <meta name="description" content="Ofrecemos una Ecommerce para tu negocio."/>
@@ -19,6 +20,7 @@ export const Ecommerce = () => {
       <meta property="og:url" content="https://codear.ar/ecommerce" />
       <meta property="og:title" content="Tu negocio en linea | Codear" />
       <meta property="og:description" content="Ofrecemos una Ecommerce para tu negocio." />
+      </head>
     </Helmet>
     <main>
         <HeroEcommers />

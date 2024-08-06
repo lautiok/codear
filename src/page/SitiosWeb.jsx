@@ -12,6 +12,7 @@ export const SitiosWeb = () => {
   return (
     <>
     <Helmet>
+        <head>
       <title>Sitios Web | Codear</title>
       <meta name="sitios-web" content="sitios web" />
       <meta name="description" content="Ofrecemos sitios web para mejorar tu negocio."/>
@@ -19,6 +20,7 @@ export const SitiosWeb = () => {
       <meta property="og:url" content="https://codear.ar/sitiosweb" />
       <meta property="og:title" content="Sitios Web | Codear" />
       <meta property="og:description" content="Ofrecemos sitios web para mejorar tu negocio." />
+      </head>
     </Helmet>
     <main>
       <HeroSitiosWeb />

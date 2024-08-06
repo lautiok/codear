@@ -9,6 +9,7 @@ export const TerminosCondiciones = () => {
   return (
     <>
       <Helmet>
+        <head>
         <title>Términos y Condiciones | Codear</title>
         <meta name="description" content="terminos y condiciones de Codear." />
         <meta property="og:type" content="website" />
@@ -22,6 +23,7 @@ export const TerminosCondiciones = () => {
           content="Agencia de desarrollo web y diseño de interfaces digital en buenos aires, Argentina."
         />
         <title>terminos y condiciones | Codear</title>
+            </head>
       </Helmet>
       <main>
         <section className="politicaprivacidad-section">

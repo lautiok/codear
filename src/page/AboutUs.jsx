@@ -11,6 +11,7 @@ export const AboutUs = () => {
   return (
     <>
       <Helmet>
+        <head>
         <title>Sobre nosotros | Codear</title>
         <meta
           name="description"
@@ -30,6 +31,7 @@ export const AboutUs = () => {
           property="og:image"
           content="https://codear.dev/assets/images/logo.png"
         />
+        </head>
       </Helmet>
       <main>
         <HeroAboutUs />
