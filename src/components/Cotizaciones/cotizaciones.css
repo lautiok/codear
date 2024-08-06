@@ -21,6 +21,8 @@
 .contact {
   background-color: #ffffff;
   color: black;
+  width: 350px;
+  height: 335px;
 }
 
 .contact h2, .azul h2 {
@@ -33,10 +35,6 @@
   font-weight: 400;
 }
 
-.contact .tel {
-  margin-bottom: 11rem;
-
-}
 
 .contact h2 span {
   color: #ff00ff; /* Punto de color magenta */

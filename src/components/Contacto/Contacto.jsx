@@ -3,7 +3,7 @@ import './contacto.css'
 export const Contacto = () => {
   return (
     <section className='contacto-section'>
-        <article className='contact'>
+        <article className='contact-section'>
             <h2>contactanos <span>.</span></h2>
             <div className='contacto'>
                 <p>Correo electrónico: <a href="mailto:ventas@codear.ar">ventas@codear.ar</a></p>

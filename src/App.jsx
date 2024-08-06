@@ -18,6 +18,8 @@ import { Proyectos } from "./page/Proyectos";
 import { Contact } from "./page/Contact";
 import { PoliticaPrivacidades } from "./page/PoliticaPrivacidades";
 import { TerminosCondiciones } from "./page/TerminosCondiciones";
+import { Blog } from "./page/Blog";
+import { Cotizacion } from "./page/Cotizacion";
 
 function App() {
   return (
@@ -38,12 +40,18 @@ function App() {
             <Route path="/seo" element={<Seo />} />
             <Route path="/emailmarketing" element={<EmailMarketing />} />
             <Route path="/servicios" element={<Servicios />} />
-            <Route path="/blog" element={<EnContruccion />} />
-            <Route path="/cotizaciones" element={<EnContruccion />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/cotizaciones" element={<Cotizacion />} />
             <Route path="/proyectos" element={<Proyectos />} />
             <Route path="/contacto" element={<Contact />} />
-            <Route path="/politicaprivacidad" element={<PoliticaPrivacidades />} />
-            <Route path="/terminoscondiciones" element={<TerminosCondiciones />} />
+            <Route
+              path="/politicaprivacidad"
+              element={<PoliticaPrivacidades />}
+            />
+            <Route
+              path="/terminoscondiciones"
+              element={<TerminosCondiciones />}
+            />
             <Route path="/team" element={<EnContruccion />} />
             <Route path="*" element={<NoFount />} />
           </Routes>
