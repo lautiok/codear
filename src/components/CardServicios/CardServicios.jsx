@@ -10,7 +10,7 @@ export const CardServicios = () => {
             <article className='cardServicios-info' key={index}>
                 <h2>{servicio.title}</h2>
                 <p>{servicio.descripcion}</p>
-                <Button text="saber más" variant="primary" style={{fontSize: '14px', fontFamily: 'poppins', color: '#fff'}} />
+                <a href="https://w.app/codear" target='black'><Button text="saber más" variant="primary" style={{fontSize: '14px', fontFamily: 'poppins', color: '#fff'}} /></a>
             </article>
         ))}
 

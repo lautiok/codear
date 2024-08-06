@@ -9,13 +9,13 @@ export const Footer = () => {
         <div className="footer-logo">
           <h2>Codear<span>.</span></h2>
           <div className="footer-social-icons">
-            <a href="#" aria-label="Instagram">
+            <a href="https://www.instagram.com/codear.ar/" target='_blank' aria-label="Instagram">
             <i className="bi bi-instagram"></i>
             </a>
-            <a href="#" aria-label="Facebook">
+            <a href="https://www.facebook.com/profile.php?id=100087176983894" target='_blank' aria-label="Facebook">
             <i className="bi bi-facebook"></i>
             </a>
-            <a href="#" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/in/nahuel-guerra/" target='_blank' aria-label="LinkedIn">
             <i className="bi bi-linkedin"></i>
             </a>
           </div>
