@@ -20,7 +20,7 @@ export const Header = () => {
                 <li> <NavLink to="/sobrenosotros" activeclassname="active">Sobre Nosotros</NavLink> </li>
                 <li> <NavLink to="/proyectos" activeclassname="active">Proyectos</NavLink> </li>
                 <li> <NavLink to="/servicios" activeclassname="active">Servicios</NavLink> </li>
-                <li> <NavLink to="/blog" activeclassname="active">Blog</NavLink> </li>
+                {/* <li> <NavLink to="/blog" activeclassname="active">Blog</NavLink> </li> */}
             </ul>
             <Button  text="CONTACTO" onClick={navegate} variant="primary" style={{fontSize: '12px', fontWeight: '600', fontFamily: 'poppins'}} />
         </nav>

@@ -37,9 +37,9 @@ export const NavResponsive = () => {
             <li className="link-resp">
               <Link to="/servicios">Servicios</Link>
             </li>
-             <li className="link-resp">
+             {/* <li className="link-resp">
               <Link to="/blog">Blog</Link>
-            </li>
+            </li> */}
           </ul>
         </nav>
       </div>
