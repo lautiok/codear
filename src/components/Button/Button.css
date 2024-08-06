@@ -1,75 +1,60 @@
 .button {
-  padding: 13px 20px;
-  border: none;
-  border-radius: 10px;
-  font-size: 12px;
-  cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.2s ease; /* Añadido: transición para transform */
-  display: inline-flex; /* Ajuste para mejor alineación */
-  align-items: center; /* Centrar contenido verticalmente */
-  justify-content: center; /* Centrar contenido horizontalmente */
-}
+    padding: 13px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button.primary {
+    background-color: #284C55;
+    color: #fff;
+  }
+  
+  .button.primary:hover {
+    background-color: #1e3a42;
+  }
+  
+  .button.secondary {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  .button.secondary:hover {
+    background-color: #5a6268;
+  }
+  
+  .button.danger {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .button.danger:hover {
+    background-color: #c82333;
+  }
+  
+  .button.success {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .button.success:hover {
+    background-color: #218838;
+  }
 
-.button:focus {
-  outline: 2px solid #007bff; /* Añadido: borde para enfoque de accesibilidad */
-  outline-offset: 4px; /* Espacio entre el borde de enfoque y el botón */
-}
+  .button.info {
+    background-color: #0000003f;
+    color: #000000;
+    padding: 6px 20px;
+  }
 
-.button.primary {
-  background-color: #284C55;
-  color: #fff;
-}
-
-.button.primary:hover {
-  background-color: #1e3a42;
-  transform: scale(1.05); /* Añadido: efecto de agrandamiento */
-}
-
-.button.secondary {
-  background-color: #6c757d;
-  color: white;
-}
-
-.button.secondary:hover {
-  background-color: #5a6268;
-  transform: scale(1.05);
-}
-
-.button.danger {
-  background-color: #dc3545;
-  color: white;
-}
-
-.button.danger:hover {
-  background-color: #c82333;
-  transform: scale(1.05);
-}
-
-.button.success {
-  background-color: #28a745;
-  color: white;
-}
-
-.button.success:hover {
-  background-color: #218838;
-  transform: scale(1.05);
-}
-
-.button.info {
-  background-color: #0000003f;
-  color: #000000;
-  padding: 6px 20px;
-}
-
-.button.info:hover {
-  background-color: #aaaaaa;
-  transform: scale(1.05);
-}
-
-.button:disabled {
-  background-color: #cccccc;
-  color: #666666; /* Añadido: color de texto para botón deshabilitado */
-  cursor: not-allowed;
-  transform: none; /* No aplicar transformaciones en botones deshabilitados */
-  opacity: 0.6; /* Añadido: opacidad para el estado deshabilitado */
-}
+  .button.info:hover {
+    background-color: #aaaaaa;
+  }
+  
+  .button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
