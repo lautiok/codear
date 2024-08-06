@@ -40,7 +40,7 @@ function App() {
             <Route path="/seo" element={<Seo />} />
             <Route path="/emailmarketing" element={<EmailMarketing />} />
             <Route path="/servicios" element={<Servicios />} />
-            <Route path="/blog" element={<Blog />} />
+            <Route path="/blog" element={<EnContruccion />} />
             <Route path="/cotizaciones" element={<Cotizacion />} />
             <Route path="/proyectos" element={<Proyectos />} />
             <Route path="/contacto" element={<Contact />} />
