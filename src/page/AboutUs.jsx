@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import { HeroAboutUs } from "../components/HeroAbourUs/HeroAboutUs";
 import { QueSomos } from "../components/QueSomos/QueSomos";
-import { Contacto } from "../components/Contacto/Contacto";
 
 export const AboutUs = () => {
   useEffect(() => {
@@ -11,7 +10,6 @@ export const AboutUs = () => {
   return (
     <>
       <Helmet>
-        <head>
         <title>Sobre nosotros | Codear</title>
         <meta
           name="description"
@@ -31,12 +29,10 @@ export const AboutUs = () => {
           property="og:image"
           content="https://codear.dev/assets/images/logo.png"
         />
-        </head>
       </Helmet>
       <main>
         <HeroAboutUs />
         <QueSomos />
-        <Contacto />
       </main>
     </>
   );

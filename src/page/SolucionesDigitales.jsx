@@ -11,7 +11,7 @@ export const SolucionesDigitales = () => {
   return (
     <>
     <Helmet>
-        <head>
+      
       <title>Soluciones Digitales | Codear</title>
       <meta name="soluciones-digitales" content="soluciones digitales" />
       <meta property="soluciones" content="soluciones" />
@@ -20,7 +20,6 @@ export const SolucionesDigitales = () => {
       <meta property="og:url" content="https://codear.ar/solucionesdigitales" />
       <meta property="og:title" content="Soluciones Digitales | Codear" />
       <meta property="og:description" content="Ofrecemos soluciones digitales para mejorar tu negocio." />
-      </head>
     </Helmet>
     <main>
         <HeroSolucionesDigitales />

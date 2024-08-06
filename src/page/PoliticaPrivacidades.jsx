@@ -9,7 +9,6 @@ export const PoliticaPrivacidades = () => {
   return (
     <>
       <Helmet>
-        <head>
         <title>Política de Privacidad | Codear</title>
         <meta name="Política de Privacidad" content="Política de Privacidad" />
         <meta
@@ -23,7 +22,6 @@ export const PoliticaPrivacidades = () => {
           property="og:description"
           content="Política de Privacidad de Codear."
         />
-        </head>
       </Helmet>
       <main>
         <PoliticaPrivacidad />

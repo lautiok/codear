@@ -9,7 +9,7 @@ export const Home = () => {
   return (
     <>
       <Helmet>
-        <head>
+        
         <meta charset="UTF-8" />
         <link rel="icon" type="image/svg+xml" href="/public/favicon.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -28,7 +28,6 @@ export const Home = () => {
           content="Agencia de desarrollo web y diseño de interfaces digital en buenos aires, Argentina."
         />
         <title>Codear | Agencia de marketing digital y desarrollo web</title>
-      </head>
       </Helmet>
       <main>
         <Hero />

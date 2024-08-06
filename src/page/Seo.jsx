@@ -11,7 +11,7 @@ export const Seo = () => {
   return (
         <>
     <Helmet>
-        <head>
+      
       <title>Optimizacion SEO | Codear</title>
       <meta name="Tu negocio en linea" content="Tu negocio en linea" />
       <meta name="description" content="Ofrecemos una Ecommerce para tu negocio."/>
@@ -19,7 +19,6 @@ export const Seo = () => {
       <meta property="og:url" content="https://codear.ar/ecommerce" />
       <meta property="og:title" content="Tu negocio en linea | Codear" />
       <meta property="og:description" content="Ofrecemos una Ecommerce para tu negocio." />
-      </head>
     </Helmet>
     <main>
         <HeroSeo />
