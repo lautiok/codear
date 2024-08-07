@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "concurrently \"npm run dev --prefix client\" \"npm run dev --prefix backend\"",
-    "start-client": "npm run start --prefix client",
-    "start-server": "npm run start --prefix backend"
+    "dev": "concurrently \"npm run dev --prefix client\" \"npm run dev --prefix backend\""
   },
   "keywords": [],
   "author": "",
