@@ -1,7 +1,7 @@
 import React from 'react'
 import './heroplantilla.css'
 
-import hero from '../../assets/plantillasweb.jpg'
+import hero from '../../assets/plantillasweb.webp'
 
 
 export const HeroPlantilla = () => {

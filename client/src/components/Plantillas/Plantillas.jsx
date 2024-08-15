@@ -2,7 +2,7 @@ import React from "react";
 import "./plantillas.css";
 import { Button } from "../Button/Button";
 import { useNavigate } from "react-router-dom";
-import plantillas from "../../assets/plantillas.png";
+import plantillas from "../../assets/plantillas.webp";
 export const Plantillas = () => {
   const navigate = useNavigate();
 

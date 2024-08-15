@@ -2,7 +2,7 @@ import React from "react";
 import "./herositiosweb.css";
 import { useNavigate } from "react-router-dom";
 import { Button } from "../Button/Button";
-import sitioweb from "../../assets/sitioweb.png";
+import sitioweb from "../../assets/sitioweb.webp";
 export const HeroSitiosWeb = () => {
   const navigate = useNavigate();
 

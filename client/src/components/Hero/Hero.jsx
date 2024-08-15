@@ -1,7 +1,7 @@
 import React from 'react'
 import './hero.css'
 import { Button } from '../Button/Button'
-import hero from '../../assets/hero.png'
+import hero from '../../assets/hero.webp'
 import { useNavigate } from 'react-router-dom'
 export const Hero = () => {
     const navigate = useNavigate()

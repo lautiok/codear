@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import './encontruccion.css'
-import encontruccion from '../../assets/encontruccion.png'
+import encontruccion from '../../assets/encontruccion.webp'
 
 export const EnContruccion = () => {
   useEffect(() => {

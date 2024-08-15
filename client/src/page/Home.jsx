@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Hero } from "../components/Hero/Hero";
 import { WebService } from "../components/WebService/WebService";
 import { Plantillas } from "../components/Plantillas/Plantillas";
@@ -6,6 +6,7 @@ import { MarketingService } from "../components/MarketingService/MarketingServic
 import { Helmet } from "react-helmet-async";
 
 export const Home = () => {
+
   return (
     <>
       <Helmet>

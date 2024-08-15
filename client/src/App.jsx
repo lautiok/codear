@@ -20,20 +20,18 @@ import { PoliticaPrivacidades } from "./page/PoliticaPrivacidades";
 import { TerminosCondiciones } from "./page/TerminosCondiciones";
 import { Blog } from "./page/Blog";
 import { Cotizacion } from "./page/Cotizacion";
+import { Transición } from "./components/Transición/Transición";
 
 function App() {
   return (
-    <>
-      <HelmetProvider>
-        <BrowserRouter>
-          <Header />
+    <HelmetProvider>
+      <BrowserRouter>
+        <Header />
+        <Transición>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/sobrenosotros" element={<AboutUs />} />
-            <Route
-              path="/solucionesdigitales"
-              element={<SolucionesDigitales />}
-            />
+            <Route path="/solucionesdigitales" element={<SolucionesDigitales />} />
             <Route path="/sitiosweb" element={<SitiosWeb />} />
             <Route path="/ecommerce" element={<Ecommerce />} />
             <Route path="/plantillasweb" element={<Plantilla />} />
@@ -44,21 +42,15 @@ function App() {
             <Route path="/cotizaciones" element={<Cotizacion />} />
             <Route path="/proyectos" element={<Proyectos />} />
             <Route path="/contacto" element={<Contact />} />
-            <Route
-              path="/politicaprivacidad"
-              element={<PoliticaPrivacidades />}
-            />
-            <Route
-              path="/terminoscondiciones"
-              element={<TerminosCondiciones />}
-            />
+            <Route path="/politicaprivacidad" element={<PoliticaPrivacidades />} />
+            <Route path="/terminoscondiciones" element={<TerminosCondiciones />} />
             <Route path="/team" element={<EnContruccion />} />
             <Route path="*" element={<NoFount />} />
           </Routes>
-          <Footer />
-        </BrowserRouter>{" "}
-      </HelmetProvider>
-    </>
+        </Transición>
+        <Footer />
+      </BrowserRouter>
+    </HelmetProvider>
   );
 }
 

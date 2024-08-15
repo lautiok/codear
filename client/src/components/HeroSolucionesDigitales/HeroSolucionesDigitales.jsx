@@ -1,7 +1,7 @@
 import React from 'react'
 import './herosolucionesdigitales.css'
 import { Button } from '../Button/Button'
-import hero from '../../assets/solucionesdigitales.jpg'
+import hero from '../../assets/solucionesdigitales.webp'
 import { useNavigate } from 'react-router-dom'
 
 export const HeroSolucionesDigitales = () => {
