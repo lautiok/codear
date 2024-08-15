@@ -12,19 +12,16 @@ export const Button = ({
   variant = "primary",  // Valor por defecto para variant
 }) => {
   return (
-    <>
     <button
       type={type}
       onClick={onClick}
       className={`button ${variant} ${className}`} // Clases CSS para estilo
       disabled={disabled}
       style={style}
-      aria-label={text}
-      arial-labelledby={text}
+      aria-label={text} // Nombre accesible para el botón
     >
       {text}
     </button>
-    </>
   );
 };
 
