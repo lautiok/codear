@@ -19,6 +19,8 @@ export const Button = ({
       className={`button ${variant} ${className}`} // Clases CSS para estilo
       disabled={disabled}
       style={style}
+      aria-label={text}
+      arial-labelledby={text}
     >
       {text}
     </button>
